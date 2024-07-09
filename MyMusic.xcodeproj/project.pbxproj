@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		7ED3BB5D2C3C4C5C00E7CB26 /* MyMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3BB5C2C3C4C5C00E7CB26 /* MyMusicApp.swift */; };
 		7ED3BB5F2C3C4C5C00E7CB26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3BB5E2C3C4C5C00E7CB26 /* ContentView.swift */; };
-		7ED3BB612C3C4C5E00E7CB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED3BB602C3C4C5E00E7CB26 /* Assets.xcassets */; };
 		7ED3BB642C3C4C5E00E7CB26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED3BB632C3C4C5E00E7CB26 /* Preview Assets.xcassets */; };
+		7ED3BB6A2C3DFCA800E7CB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED3BB602C3C4C5E00E7CB26 /* Assets.xcassets */; };
+		7ED3BB6C2C3DFCFF00E7CB26 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3BB6B2C3DFCFF00E7CB26 /* SoundPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7ED3BB5E2C3C4C5C00E7CB26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7ED3BB602C3C4C5E00E7CB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ED3BB632C3C4C5E00E7CB26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7ED3BB6B2C3DFCFF00E7CB26 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		7ED3BB5B2C3C4C5C00E7CB26 /* MyMusic */ = {
 			isa = PBXGroup;
 			children = (
+				7ED3BB6B2C3DFCFF00E7CB26 /* SoundPlayer.swift */,
 				7ED3BB5C2C3C4C5C00E7CB26 /* MyMusicApp.swift */,
 				7ED3BB5E2C3C4C5C00E7CB26 /* ContentView.swift */,
 				7ED3BB602C3C4C5E00E7CB26 /* Assets.xcassets */,
@@ -125,8 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED3BB6A2C3DFCA800E7CB26 /* Assets.xcassets in Resources */,
 				7ED3BB642C3C4C5E00E7CB26 /* Preview Assets.xcassets in Resources */,
-				7ED3BB612C3C4C5E00E7CB26 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ED3BB5F2C3C4C5C00E7CB26 /* ContentView.swift in Sources */,
+				7ED3BB6C2C3DFCFF00E7CB26 /* SoundPlayer.swift in Sources */,
 				7ED3BB5D2C3C4C5C00E7CB26 /* MyMusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
